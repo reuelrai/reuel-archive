@@ -4,6 +4,9 @@ import Link from 'next/link'
 export const metadata = {
   title: 'Reuel Blogs',
   description: 'Read blogs, poems, and books by Reuel.',
+  icons: {
+    icon: '/favicon.ico',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
