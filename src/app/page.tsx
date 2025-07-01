@@ -1,3 +1,32 @@
+export const metadata = {
+  title: 'Reuel Writes | Home',
+  description: 'Welcome to Reuel Writes — explore original poems, thought-provoking blogs, and books written by Reuel Rai.',
+  keywords: ['Reuel Rai', 'poems', 'blogs', 'books', 'Nepal', 'creative writing'],
+  openGraph: {
+    title: 'Reuel Writes | Home',
+    description: 'Discover poems, blogs, and books written by Reuel Rai. Explore your emotions through words.',
+    url: 'https://yourdomain.com',
+    siteName: 'Reuel Writes',
+    images: [
+      {
+        url: 'https://yourdomain.com/og-home.png',
+        width: 1200,
+        height: 630,
+        alt: 'Reuel Writes',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Reuel Writes | Home',
+    description: 'Discover poems, blogs, and books written by Reuel Rai.',
+    images: ['https://yourdomain.com/og-home.png'],
+  },
+};
+
+
 export default function Home() {
   return (
     <div
@@ -5,7 +34,7 @@ export default function Home() {
       style={{ height: 'calc(100vh - 80px)' }}
     >
       <h1 className="text-4xl font-bold mb-4">Welcome to Reuel Blogs</h1>
-      <p className="text-lg max-w-md">
+      <p className="text-lg max-w-md italic">
         Select a section from the navigation above to start reading.
       </p>
     </div>

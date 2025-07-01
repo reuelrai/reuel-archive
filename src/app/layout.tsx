@@ -37,7 +37,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </Link>
           ))}
         </nav>
-
+        
         <main className="px-4">{children}</main>
         <Analytics />
       </body>
