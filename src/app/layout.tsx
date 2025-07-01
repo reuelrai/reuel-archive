@@ -15,7 +15,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body className="min-h-screen bg-white text-gray-800">
 
-        <nav className="bg-transparent p-5 flex justify-end gap-10 pr-20">
+        <nav className="sticky top-0 z-50 bg-white/80 dark:bg-[#1d1d1d]/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-700 h-20 p-6 flex justify-end items-center gap-12 pr-24 shadow-lg dark:shadow-[0_2px_10px_rgba(255,255,255,0.1)]">
+
           {[
             { href: "/", label: "Home" },
             { href: "/blog", label: "Blog" },
@@ -37,7 +38,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </Link>
           ))}
         </nav>
-        
+
         <main className="px-4">{children}</main>
         <Analytics />
       </body>
