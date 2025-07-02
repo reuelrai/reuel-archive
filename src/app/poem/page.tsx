@@ -80,6 +80,7 @@ export default function Poem() {
                 'die loving me.”',
 
                 'So I did.',
+                'The End',
             ],
         },
         {
