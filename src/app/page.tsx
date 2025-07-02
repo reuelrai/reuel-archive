@@ -1,9 +1,9 @@
 export const metadata = {
-  title: 'Reuel Writes | Home',
+  title: 'Reuel | Home',
   description: 'Welcome to Reuel Writes — explore original poems, thought-provoking blogs, and books written by Reuel Rai.',
   keywords: ['Reuel Rai', 'poems', 'blogs', 'books', 'Nepal', 'creative writing'],
   openGraph: {
-    title: 'Reuel Writes | Home',
+    title: 'Reuel | Home',
     description: 'Discover poems, blogs, and books written by Reuel Rai. Explore your emotions through words.',
     url: 'https://yourdomain.com',
     siteName: 'Reuel Writes',
