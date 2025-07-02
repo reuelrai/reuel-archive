@@ -18,7 +18,7 @@ export default function Navbar() {
             <div className="flex items-center justify-between max-w-7xl mx-auto">
 
                 {/* Logo */}
-                <div className="text-lg font-bold">REUEL</div>
+                <div className="text-lg font-bold">REUEL R</div>
 
                 {/* Hamburger for Mobile */}
                 <button
