@@ -31,36 +31,66 @@ export default function Poem() {
         {
             title: 'Moon',
             lines: [
+                'I could watch her for endless nights,',
+                'So distant, yet so beautiful.',
+                'Like a silent queen in silver light,',
+                'Serene, untouchable, and full.',
+                'She drifts through clouds in quiet grace,',
+                'Unmoved by time or earthly sound,',
+                'A wistful smile upon her face,',
+                'As if she knows where dreams are found.',
+                'No crown, no throne, no royal tune,',
+                'And still she stirs the sea and gloom.',
+                `She weaves her spell through midnight's bloom—`,
+                'For her name is the Moon.',
+            ],
+        },
+        {
+            title: 'Where Smoke Meets Silence',
+            lines: [
+                'She would burn for me',
+                'and I would die for her.',
+                'Flicked flame to trembling lip,',
+                'she kissed the night,',
+                'a slow inhale of sin and surrender.',
+
+                'Smoke curled like secrets',
+                'between her fingers,',
+                'and I,',
+                'choking on devotion,',
+                'let her poison settle in my lungs.',
+
+                'She was the ruin I reached for',
+                'in every quiet hour,',
+                'the soft hiss of longing',
+                'on paper- thin skin.',
+
+                'We danced in silence,',
+                'her breath a storm of ashes,',
+                'my heart a house on fire.',
+
+                'Each night, she left',
+                'a little more of herself on my soul—',
+                'a ghost in the shape of desire.',
+
+                'And when I finally crumbled,',
+                'no breath left to give,',
+                'she whispered,',
+                '“If you must die,',
+                'die loving me.”',
+
+                'So I did.',
+            ],
+        },
+        {
+            title: 'Pathetic',
+            lines: [
                 'I could give you the world',
                 'But you wanted a fucking solar system',
                 'The end',
             ],
         },
-        {
-            title: 'Storm',
-            lines: [
-                'The clouds gathered like angry thoughts',
-                'And I stood still, hoping the thunder wasn’t mine',
-                'The end',
-            ],
-        },
-        {
-            title: 'Ashes',
-            lines: [
-                'We burned and called it love',
-                'But all we ever made was smoke',
-                'The end',
-            ],
-        },
-        {
-            title: 'Eclipse',
-            lines: [
-                'You blocked my light',
-                'But I still danced around you',
-                'Even in the dark',
-                'The end',
-            ],
-        },
+
     ];
 
     return (
@@ -77,8 +107,8 @@ export default function Poem() {
                             <p
                                 key={i}
                                 className={`mb-2 ${line.toLowerCase() === 'the end'
-                                        ? 'italic text-gray-600 dark:text-gray-400'
-                                        : ''
+                                    ? 'italic text-gray-600 dark:text-gray-400'
+                                    : ''
                                     }`}
                             >
                                 {line}
