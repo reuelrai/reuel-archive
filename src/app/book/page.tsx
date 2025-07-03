@@ -1,9 +1,9 @@
 export const metadata = {
-    title: 'Born from Ashes — Rising again from the remnants of yesterday. | Reuel Writes',
+    title: 'Born from Ashes — The remnants of yesterday. | Reuel Writes',
     description: 'Read the original book written by Reuel Rai — introspective, philosophical, and deeply human.',
-    keywords: ['Reuel Rai book', 'Born from Ashes — Rising again from the remnants of yesterday.', 'original book', 'Reuel Writes book'],
+    keywords: ['Reuel Rai book', 'Born from Ashes — The remnants of yesterday.', 'original book', 'Reuel Writes book'],
     openGraph: {
-        title: 'Born from Ashes — Rising again from the remnants of yesterday. | Reuel Writes',
+        title: 'Born from Ashes — The remnants of yesterday. | Reuel Writes',
         description: 'Explore Reuel Rai’s original book — a powerful expression of thoughts and control.',
         url: 'https://yourdomain.com/book',
         siteName: 'Reuel Writes',
@@ -12,7 +12,7 @@ export const metadata = {
                 url: 'https://yourdomain.com/og-book.png',
                 width: 1200,
                 height: 630,
-                alt: 'Born from Ashes — Rising again from the remnants of yesterday. book cover',
+                alt: 'Born from Ashes — The remnants of yesterday. book cover',
             },
         ],
         locale: 'en_US',
@@ -20,7 +20,7 @@ export const metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Born from Ashes — Rising again from the remnants of yesterday. | Reuel Writes',
+        title: 'Born from Ashes — The remnants of yesterday. | Reuel Writes',
         description: 'Read the original book by Reuel Rai.',
         images: ['https://yourdomain.com/og-book.png'],
     },
