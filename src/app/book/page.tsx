@@ -35,14 +35,8 @@ export default function Book() {
             <section className="prose dark:prose-invert">
                 <p>
                     {/* Example content — replace this with your book text */}
-                    Control is not about domination; it is about understanding. In a world governed by chaos, the one who can control himself becomes a master of his fate.
+                    Every morning, I wake with the quiet certainty that something has changed — not around me, but within. The world feels the same, the people unchanged, and yet I carry a growing sense of distance between who I am now and who I was yesterday. It’s not memory that fails me — I remember everything, in vivid detail — it’s something subtler, like a shift in weight, a pause in rhythm. Today is the 8,765th time I’ve lived this life. Or perhaps it’s the 8,765th version of me that has. Either way, I keep going — unchanged in the eyes of others, but undeniably different to myself.
                 </p>
-
-                <h2>Part I — Understanding Control</h2>
-                <p>
-                    True control begins within. The illusion of control over others fades when we fail to govern our own thoughts, our fears, and our impulses...
-                </p>
-
                 {/* Continue your book content here... */}
             </section>
         </main>

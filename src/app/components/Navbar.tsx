@@ -8,6 +8,7 @@ const navItems = [
     { href: "/blog", label: "Blogs" },
     { href: "/poem", label: "Poems" },
     { href: "/book", label: "Book" },
+    { href: "/qna", label: "Q&A" },
 ]
 
 export default function Navbar() {
