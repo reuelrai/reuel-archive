@@ -1,9 +1,9 @@
 export const metadata = {
-    title: 'The Art of Control | Reuel Writes',
+    title: 'Born from Ashes — Rising again from the remnants of yesterday. | Reuel Writes',
     description: 'Read the original book written by Reuel Rai — introspective, philosophical, and deeply human.',
-    keywords: ['Reuel Rai book', 'The Art of Control', 'original book', 'Reuel Writes book'],
+    keywords: ['Reuel Rai book', 'Born from Ashes — Rising again from the remnants of yesterday.', 'original book', 'Reuel Writes book'],
     openGraph: {
-        title: 'The Art of Control | Reuel Writes',
+        title: 'Born from Ashes — Rising again from the remnants of yesterday. | Reuel Writes',
         description: 'Explore Reuel Rai’s original book — a powerful expression of thoughts and control.',
         url: 'https://yourdomain.com/book',
         siteName: 'Reuel Writes',
@@ -12,7 +12,7 @@ export const metadata = {
                 url: 'https://yourdomain.com/og-book.png',
                 width: 1200,
                 height: 630,
-                alt: 'The Art of Control book cover',
+                alt: 'Born from Ashes — Rising again from the remnants of yesterday. book cover',
             },
         ],
         locale: 'en_US',
@@ -20,7 +20,7 @@ export const metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'The Art of Control | Reuel Writes',
+        title: 'Born from Ashes — Rising again from the remnants of yesterday. | Reuel Writes',
         description: 'Read the original book by Reuel Rai.',
         images: ['https://yourdomain.com/og-book.png'],
     },
@@ -28,8 +28,9 @@ export const metadata = {
 
 export default function Book() {
     return (
-        <main className="px-4 py-8 max-w-3xl mx-auto text-gray-800 dark:text-gray-100">
-            <h1 className="text-4xl font-bold mb-4 text-center">The Art of Control</h1>
+        <main className="px-4 py-8 max-w-4xl mx-auto text-gray-800 dark:text-gray-100">
+            <h1 className="text-4xl font-bold mb-1 mt-4 text-center">Born from Ashes</h1>
+            <p className=" text-center mb-4">The remnants of yesterday</p>
             <p className="italic text-center mb-10">By Reuel Rai</p>
 
             <section className="prose dark:prose-invert">
