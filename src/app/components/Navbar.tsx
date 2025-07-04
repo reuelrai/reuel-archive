@@ -42,7 +42,7 @@ export default function Navbar() {
                     {navItems.map(({ href, label }) => (
                         <Link key={href} href={href} className="relative inline-block">
                             <div className="absolute inset-0 bg-black dark:bg-white rounded-[0.75em] translate-y-1"></div>
-                            <span className="relative z-10 block border-2 border-black dark:border-white bg-[#e8e8e8] dark:bg-[#1d1d1d] text-black dark:text-white rounded-[0.75em] px-4 py-1.5 font-semibold text-sm transition-transform duration-100 ease-in hover:-translate-y-1 active:translate-y-0">
+                            <span className="relative z-10 block border-2 border-black dark:border-white bg-[#e8e8e8] dark:bg-[#1d1d1d] text-black dark:text-white rounded-[0.75em] px-4 py-1.5 font-semibold tracking-wider text-sm transition-transform duration-100 ease-in hover:-translate-y-1 active:translate-y-0">
                                 {label}
                             </span>
                         </Link>
@@ -57,9 +57,7 @@ export default function Navbar() {
                         <Link key={href} href={href} className="relative inline-block w-full max-w-xs">
 
                             <div className="absolute inset-0 bg-black dark:bg-white rounded-[0.75em] translate-y-1"></div>
-                            <span className="relative z-10 block border-2 border-black dark:border-white bg-[#e8e8e8] dark:bg-[#1d1d1d] text-black dark:text-white rounded-[0.75em] px-4 py-1.5 font-semibold text-sm transition-transform duration-100 ease-in hover:-translate-y-1 active:scale-95">
-
-
+                            <span className="relative z-10 block border-2 border-black dark:border-white bg-[#e8e8e8] dark:bg-[#1d1d1d] text-black dark:text-white rounded-[0.75em] px-4 py-1.5 font-semibold tracking-wider text-sm transition-transform duration-100 ease-in hover:-translate-y-1 active:scale-95">
                                 {label}
                             </span>
                         </Link>
