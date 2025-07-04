@@ -40,6 +40,36 @@ export default function Book() {
                 </p>
                 {/* Continue your book content here... */}
             </section>
+            <section className="mt-5 mb-5">
+                <h1 className="text-3xl mb-5">Chapter 1 - A World Measured in Mana</h1>
+                <p>
+                    Behind the village where I grew up, there was a small forest. It was a place of refuge for me, a sanctuary where I could escape the noise of the world and find solace in nature. The trees stood tall and proud, their leaves whispering secrets to one another in the gentle breeze. I would often sit beneath the shade of an old oak tree, feeling its rough bark against my back, and let my mind wander.
+                    <br/>
+                    In this world, magic is not a gift — it’s a currency.
+                    Not everyone is born with it, and those who are quickly learn this truth: mana is everything. It shapes status, determines power, and decides who rules and who kneels.
+                    <br/>
+                    The commonfolk call it the Vein — the invisible current of energy flowing through the fortunate few. Those born with it can sense the ebb and flow of mana, draw it into their bodies, and shape reality. But mana is finite. When it’s gone, so is their power — and sometimes, their lives.
+                    <br/>
+                    People are born into castes, unofficial but universally recognized:
+                    The Emberborn, whose mana is barely more than a flicker — good for lighting lamps or chilling wine.
+                    The Veilcasters, who can fight, heal, create, and protect — the backbone of magical society.
+                    And the Arcanites — the legends. Born with oceans of mana, they can level cities, rewrite laws of nature, and twist fate itself. Monarchs fear them.The Churches worship them. The world shapes itself around them.
+                    <br/>
+                    And then… there’s me.
+                    <br/>
+                    I was born with no mana in my first life. Just another silent face in a world carved by magic and ruled by those who had it. I died like most do — unremarkably and forgotten.
+                    <br/>
+                    Then I woke up again. At the beginning.
+                    Same life. Same timeline. Same body.
+                    But I remembered everything.
+                    <br/>
+                    I’ve since lived this life 8,764 times. This is my 8,765th.
+                    <br/>
+                    …
+                    <br/>  
+                    And this time, I’m not the only one returning.
+                </p>
+            </section>
         </main>
     );
 }
