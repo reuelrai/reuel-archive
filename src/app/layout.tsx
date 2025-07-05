@@ -19,7 +19,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={GeistSans.className}>
       <body className="min-h-screen bg-white text-gray-800 dark:bg-[#1d1d1d] dark:text-white">
         <Navbar />
-        <main className="px-4">{children}</main>
+        <main className="">{children}</main>
         <Analytics />
       </body>
     </html>
