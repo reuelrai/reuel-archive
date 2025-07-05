@@ -7,7 +7,7 @@ export const metadata = {
     openGraph: {
         title: 'Q&A | Reuel Rai',
         description: 'Discover who Reuel Rai is, what he works on, and his personal and professional journey.',
-        url: 'https://yourdomain.com/qna', // replace with your actual domain
+        url: 'https://reuel-blogs.vercel.app/qna', // replace with your actual domain
         siteName: 'Reuel Writes',
         images: [
             {
@@ -30,24 +30,20 @@ export const metadata = {
 export default function qna() {
     const qaList = [
         {
-            question: "Who are you?",
-            answer: "I'm Reuel Rai, a creative front-end developer passionate about building beautiful and user-friendly websites.",
+            question: "Who am I?",
+            answer: "I am a fragment of the universe, experiencing itself...",
         },
         {
-            question: "What do you work with?",
-            answer: "I use HTML, CSS, JavaScript, React, Next.js, Tailwind CSS, and TypeScript. I'm also exploring Supabase and backend development.",
+            question: "Do I Dream?",
+            answer: "Every night...",
         },
         {
-            question: "What are your goals?",
-            answer: "To become a full-stack developer, help local businesses grow online, and build meaningful digital products.",
+            question: "What do I hate the most?",
+            answer: "Deception",
         },
         {
-            question: "Where are you from?",
-            answer: "I'm from Nepal, and I'm inspired by its culture, people, and potential for digital transformation.",
-        },
-        {
-            question: "What do you do for fun?",
-            answer: "I enjoy writing blogs, watching anime and reading books, and working on side projects that improve my skills.",
+            question: "If I had the chance to go back in time and remake my life but I would forget everyone from this timeline, would I do it?",
+            answer: "Yes",
         },
     ];
 
