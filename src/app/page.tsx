@@ -33,7 +33,7 @@ export default function Home() {
       className="flex flex-col items-center justify-center text-center"
       style={{ height: 'calc(100vh - 80px)' }}
     >
-      <h1 className="text-4xl font-bold mb-4 border border-gray-300 dark:border-gray-600 rounded-lg p-4 shadow-md bg-white dark:bg-[#1d1d1d] text-black dark:text-white hover:shadow-md transition-all">Welcome to Reuel Blogs</h1>
+      <h1 className="text-4xl font-bold mb-4  p-4 shadow-md bg-white dark:bg-[#1d1d1d] text-black dark:text-white hover:shadow-md transition-all">Welcome to Reuel Blogs</h1>
       <p className="text-lg max-w-md italic ">
         Select a section from the navigation above to start reading.
       </p>
