@@ -1,3 +1,32 @@
+// app/qna/page.tsx
+
+export const metadata = {
+    title: 'Q&A | Reuel Rai',
+    description: 'Answers to frequently asked questions about Reuel Rai — his journey, skills, goals, and personal interests.',
+    keywords: ['Reuel Rai', 'Q&A', 'FAQs', 'about Reuel', 'frontend developer', 'Nepal', 'Reuel Rai Q&A'],
+    openGraph: {
+        title: 'Q&A | Reuel Rai',
+        description: 'Discover who Reuel Rai is, what he works on, and his personal and professional journey.',
+        url: 'https://yourdomain.com/qna', // replace with your actual domain
+        siteName: 'Reuel Writes',
+        images: [
+            {
+                url: 'https://yourdomain.com/og-image.jpg', // optional: Open Graph image
+                width: 1200,
+                height: 630,
+                alt: 'Q&A with Reuel Rai',
+            },
+        ],
+        type: 'website',
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Q&A | Reuel Rai',
+        description: 'Learn more about Reuel Rai — front-end developer from Nepal.',
+        images: ['https://yourdomain.com/twitter-image.jpg'], // optional
+    },
+};
+
 export default function qna() {
     const qaList = [
         {
