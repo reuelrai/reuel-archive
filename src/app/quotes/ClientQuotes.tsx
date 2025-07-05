@@ -80,7 +80,7 @@ export default function ClientQuotes() {
 
     return (
         <main className="max-w-4xl mx-auto px-4 py-16">
-            <h1 className="text-4xl font-bold text-center mb-8">Quotes by Reuel Rai</h1>
+            <h1 className="text-4xl font-bold text-center mb-8">Quotes</h1>
 
             {/* Random Quote Generator */}
             <div className="text-center mb-12">
