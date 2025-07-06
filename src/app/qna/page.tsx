@@ -45,6 +45,14 @@ export default function qna() {
             question: "If I had the chance to go back in time and remake my life but I would forget everyone from this timeline, would I do it?",
             answer: "Yes",
         },
+        {
+            question: "What are my hoobies?",
+            answer: "Watching anime, reading manga/manhwa/books, listening to music, keeping track of tech world and playing video games.",
+        },
+        {
+            question: "Do I play any instruments?",
+            answer: "Yes, I play the guitar and paino occasionally.",
+        },
     ];
 
     return (

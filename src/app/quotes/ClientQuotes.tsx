@@ -48,8 +48,8 @@ export default function ClientQuotes() {
     });
 
     return (
-        <main className="max-w-4xl mx-auto px-4 py-16">
-            <h1 className="text-4xl font-bold text-center mb-8">Your Quotes</h1>
+        <main className="max-w-4xl mx-auto px-4 py-12">
+            <h1 className="text-3xl font-bold text-center mb-8">Quotes</h1>
 
             {/* Search Bar */}
             <div className="mb-6 text-center">
@@ -69,7 +69,7 @@ export default function ClientQuotes() {
                         key={category}
                         onClick={() => setSelectedCategory(category)}
                         className={`px-4 py-2 rounded-full text-sm font-medium border transition
-              ${selectedCategory === category
+                        ${selectedCategory === category
                                 ? 'bg-black text-white dark:bg-white dark:text-black'
                                 : 'bg-white text-black border-gray-300 dark:bg-[#1d1d1d] dark:text-white dark:border-gray-700'}
             `}
