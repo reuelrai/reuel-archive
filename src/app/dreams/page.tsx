@@ -1,5 +1,5 @@
 // app/diary/page.tsx
-import { diaryEntries } from './diaryData';
+import { dreams } from './dreams';
 
 export const metadata = {
     title: 'diary | Reuel Writes',
@@ -30,14 +30,14 @@ export const metadata = {
 };
 
 export default function DiaryPage() {
-    const sortedEntries = diaryEntries.sort(
+    const sortedEntries = dreams.sort(
         (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
     );
 
     return (
         <main className="min-h-screen bg-white text-black dark:bg-[#1d1d1d] dark:text-gray-200 transition-colors duration-300 content-center items-center flex">
             <div className="max-w-4xl mx-auto p-6 mt-6">
-                <h1 className="text-3xl font-bold mb-8 text-center">Reuel's Diary</h1>
+                <h1 className="text-3xl font-bold mb-8 text-center">Here are my random dreams</h1>
                 {sortedEntries.map((entry) => (
                     <div
                         key={entry.id}

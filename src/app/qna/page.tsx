@@ -31,7 +31,7 @@ export default function qna() {
     const qaList = [
         {
             question: "Who am I?",
-            answer: "I am a fragment of the universe, experiencing itself...",
+            answer: "I'm an old soul who still believes in courtship, handwritten love letters, walks on dates, picnics and coffee dates under the starts.",
         },
         {
             question: "Do I Dream?",
@@ -39,15 +39,15 @@ export default function qna() {
         },
         {
             question: "What do I hate the most?",
-            answer: "Deception",
+            answer: "Dishonesty and deception",
         },
         {
-            question: "If I had the chance to go back in time and remake my life, would I do it?",
-            answer: "Yes",
-        },
-        {
-            question: "What are my hoobies?",
+            question: "What are my hobbies?",
             answer: "Watching anime, reading manga/manhwa/books, listening to music, keeping track of tech world and playing video games.",
+        },
+        {
+            question: "What's my favourite book?",
+            answer: "Metamorphosis by Franz Kafka.",
         },
         {
             question: "Do I play any instruments?",
