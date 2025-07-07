@@ -35,7 +35,7 @@ export default function qna() {
         },
         {
             question: "Do I Dream?",
-            answer: "Yes, every night.",
+            answer: "Yes, every time I sleep.",
         },
         {
             question: "What do I hate the most?",
