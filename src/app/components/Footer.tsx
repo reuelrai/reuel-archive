@@ -7,7 +7,7 @@ export default function Footer() {
                         © {new Date().getFullYear()} Reuel Rai. All rights reserved.
                     </p>
                     <p className="text-xs mt-2">
-                        Built with ❤️ using Next.js and Tailwind CSS.
+                        Built with 💜 using Next.js and Tailwind CSS.
                     </p>
                 </div>
             </footer>
