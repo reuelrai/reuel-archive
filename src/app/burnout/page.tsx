@@ -38,7 +38,7 @@ export default function BurnoutPage() {
                 <div className="space-y-8">
                     {burnoutEntries.map((entry) => (
                         <div key={entry.id} className="border-l-4 border-red-500 pl-4">
-                            <p className="italic text-gray-200">{entry.content}</p>
+                            <p className=" text-gray-200">{entry.content}</p>
                         </div>
                     ))}
                 </div>

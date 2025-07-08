@@ -13,4 +13,8 @@ export const burnoutEntries: BurnoutEntry[] = [
         id: "2",
         content: "It took me a long time to realize I wasn't asking for too much - I was just asking the wrong person.",
     },
+    {
+        id: "3",
+        content: "I could've given you the world but you wanted a fucking solar system.",
+    },
 ];

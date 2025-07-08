@@ -83,14 +83,7 @@ export default function Poem() {
                 'The End',
             ],
         },
-        {
-            title: 'Pathetic',
-            lines: [
-                `I could've given you the world`,
-                'But you wanted a fucking solar system',
-                'The end',
-            ],
-        },
+        
 
     ];
 
