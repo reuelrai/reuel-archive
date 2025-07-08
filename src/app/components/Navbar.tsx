@@ -10,6 +10,7 @@ const navItems = [
     { href: "/dreams", label: "Dreams" },
     { href: "/lightNovel", label: "L Novel" },
     { href: "/qna", label: "Q&A" },
+    { href: "burnout", label: "Burnout" },
 ]
 
 export default function Navbar() {
@@ -38,7 +39,7 @@ export default function Navbar() {
                 </button>
 
                 {/* Desktop Nav */}
-                <div className="hidden md:flex items-center gap-6 pr-6">
+                <div className="hidden md:flex items-center gap-6">
                     {navItems.map(({ href, label }) => (
                         <Link key={href} href={href} className="relative inline-block">
                             <div className="absolute inset-0 bg-black dark:bg-white rounded-[0.75em] translate-y-1"></div>

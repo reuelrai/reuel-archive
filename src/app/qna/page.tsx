@@ -64,7 +64,7 @@ export default function qna() {
             <h1 className="text-4xl font-bold mb-8 text-center">Q&A</h1>
             <div className="space-y-6">
                 {qaList.map((qa, index) => (
-                    <div key={index} className="bg-white dark:bg-[#1d1d1d] border border-gray-200 dark:border-gray-700 rounded-lg p-6 shadow">
+                    <div key={index} className="bg-white dark:bg-[#1d1d1d] border border-gray-200 dark:border-gray-700 rounded-lg p-6 shadow transition hover:scale-[1.01]">
                         <h2 className="text-xl font-semibold mb-2">{qa.question}</h2>
                         <p className="text-gray-700 dark:text-gray-300">{qa.answer}</p>
                     </div>

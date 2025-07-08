@@ -3,7 +3,7 @@
 import ClientQuotes from './ClientQuotes';
 
 export const metadata = {
-    title: 'Quotes | Reuel Rai',
+    title: 'Quotes | Reuel',
     description: 'Explore a collection of original and inspiring quotes curated and written by Reuel Rai.',
     keywords: ['Reuel Rai', 'quotes', 'inspirational quotes', 'original quotes', 'motivational quotes', 'Reuel Writes'],
     openGraph: {

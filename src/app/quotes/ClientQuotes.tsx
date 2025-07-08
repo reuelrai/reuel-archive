@@ -10,30 +10,40 @@ type Quote = {
 
 const initialQuotes: Quote[] = [
     {
-        text: "Life isn’t about finding yourself. It’s about creating yourself.",
+        text: "Poeple are like rivers, always changing, forever flowing. They will disappear with everything you put inside them.",
         category: "Life",
-        author: "George Bernard Shaw",
+        author: "Nikita Gill",
     },
     {
-        text: "Let silence teach what noise cannot.",
-        category: "Life",
-        author: "Unknown",
-    },
-    {
-        text: "The only way out is through.",
+        text: "The simple truth of life is, people leave, for good or bad, and life goes on. Some people will leave for a better job opportunity while there will be sometimes when you will have to leave people for career growth. And then there will be times when people will get bored of you and they will find another toy to play with. That’s how it is.",
         category: "Book Quotes",
-        author: "Robert Frost",
+        author: "Renuka Gavrani, 'The Art of Being Alone'",
     },
     {
-        text: "We are what we repeatedly do. Excellence, then, is not an act but a habit.",
+        text: "Your hand is cold, mine burns like fire. How blind you are.",
         category: "Book Quotes",
-        author: "Aristotle",
+        author: "Fyodor Dostoevsky, 'White Nights'",
     },
+    {
+        text: "What are you afraid of losing, when nothing in the world actually belongs to you?",
+        category: "Stoic",
+        author: "Marcus Aurelius",
+    },
+    {
+        text: "No matter what terms we are on. I said I'll be there for you, and I will be.",
+        category: "Relationships",
+        author: "Unknonwn",
+    },
+    
+    
+    
 ];
 
 const categories = [
     'All',
     'Life',
+    'Relationships',
+    'Stoic',
     'Book Quotes',
 ];
 

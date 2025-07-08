@@ -1,5 +1,5 @@
 export const metadata = {
-    title: 'Poems | Reuel Writes',
+    title: 'Poems | Reuel',
     description: 'A collection of original poems by Reuel Rai. Emotional, thoughtful, and powerful writing.',
     keywords: ['Reuel Rai poetry', 'emotional poems', 'original poems', 'Reuel Writes poems'],
     openGraph: {
@@ -97,11 +97,11 @@ export default function Poem() {
     return (
         <div className="p-10">
             <h1 className="text-3xl font-bold mb-8 text-center">I turn em into poems</h1>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-auto ">
                 {poems.map((poem, index) => (
                     <div
                         key={index}
-                        className="border border-gray-300 dark:border-gray-600 rounded-lg p-6 shadow-md bg-white dark:bg-[#1d1d1d] text-black dark:text-white hover:shadow-lg transition-all"
+                        className="border border-gray-300 dark:border-gray-600 rounded-lg p-6 shadow-md bg-white dark:bg-[#1d1d1d] text-black dark:text-white hover:shadow-lg  transition hover:scale-[1.005]"
                     >
                         <h2 className="text-xl font-semibold mb-4">{poem.title}</h2>
                         {poem.lines.map((line, i) => (
