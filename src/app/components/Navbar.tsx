@@ -8,7 +8,6 @@ const navItems = [
     { href: "/poem", label: "Poems" },
     { href: "/quotes", label: "Quotes" },
     { href: "/dreams", label: "Dreams" },
-    { href: "/lightNovel", label: "L Novel" },
     { href: "/qna", label: "Q&A" },
     { href: "burnout", label: "Burnout" },
 ]
