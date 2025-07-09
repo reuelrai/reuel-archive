@@ -31,7 +31,7 @@ export default function qna() {
     const qaList = [
         {
             question: "Who am I?",
-            answer: "I'm an old soul who still believes in courtship, handwritten love letters, walks on dates, picnics and coffee dates under the starts.",
+            answer: "I'm an old soul who still believes in chivalry, handwritten love letters, walks on dates, picnics and coffee dates under the stars.",
         },
         {
             question: "Do I Dream?",
