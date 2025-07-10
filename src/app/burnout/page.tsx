@@ -32,7 +32,8 @@ export default function BurnoutPage() {
                     burnout.
                 </h1>
                 <p className="text-lg text-gray-300 leading-relaxed mb-8">
-                    These are unspoken words from across the web.
+                    These are raw unspoken feelings I found across the internet.
+                    
                 </p>
 
                 <div className="space-y-8">
