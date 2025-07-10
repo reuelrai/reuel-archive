@@ -7,14 +7,18 @@ export interface BurnoutEntry {
 export const burnoutEntries: BurnoutEntry[] = [
     {
         id: "1",
-        content: "Sometimes the person you'd do anything for is the one who does noting for you.",
+        content: `"Sometimes the person you'd do anything for is the one who does noting for you." `,
     },
     {
         id: "2",
-        content: "It took me a long time to realize I wasn't asking for too much - I was just asking the wrong person.",
+        content: `"It took me a long time to realize I wasn't asking for too much - I was just asking the wrong person."`,
     },
     {
         id: "3",
-        content: "I could've given you the world but you wanted a fucking solar system.",
+        content: `"I could've given you the world but you wanted a fucking solar system."`,
+    },
+    {
+        id: "4",
+        content: `"Just because you would do it for them doesn't mean they would do it for you."`,
     },
 ];
