@@ -8,7 +8,7 @@ const navItems = [
     { href: "/poem", label: "Poems" },
     { href: "/quotes", label: "Quotes" },
     { href: "/qna", label: "Q&A" },
-    { href: "burnout", label: "Burnout" },
+    { href: "/burnout", label: "Burnout" },
 ]
 
 export default function Navbar() {
