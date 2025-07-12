@@ -38,24 +38,12 @@ export default function qna() {
             answer: "Yes, every time I sleep.",
         },
         {
-            question: "What do I hate the most?",
-            answer: "Dishonesty and deception",
-        },
-        {
             question: "What are my hobbies?",
             answer: "Watching anime, reading manga/manhwa/books, listening to music, keeping track of tech world and playing video games.",
         },
         {
             question: "What's my favourite book?",
             answer: "Metamorphosis by Franz Kafka.",
-        },
-        {
-            question: "Do I play any instruments?",
-            answer: "Yes, I play the guitar and paino occasionally.",
-        },
-        {
-            question: "If I had to choose between someone who loves me and someone I love, who would I choose?",
-            answer: "Someone who loves me.",
         },
     ];
 
