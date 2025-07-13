@@ -3,8 +3,32 @@
 import { useState, useMemo } from "react";
 import { burnoutEntries } from "./burnoutEntries";
 
-const categories = ["All", "Hopeless Romantic", "Realist"] as const;
+const categories = [
+    "All",
+    "Hopeless Romantic",
+    "Realist",
+    "Idealist",
+    "Cynic",
+    "Optimist",
+    "Survivor",
+    "Nihilist",
+    "Philosopher",
+    
+] as const;
+
 type Category = (typeof categories)[number];
+
+const categoryEmojis: Record<Category, string> = {
+    All: "✨",
+    "Hopeless Romantic": "💔",
+    Realist: "🪨",
+    Idealist: "☁️",
+    Cynic: "🔒",
+    Optimist: "🌞",
+    Survivor: "🔥",
+    Nihilist: "🌀",
+    Philosopher: "📖",
+};
 
 export default function BurnoutClient() {
     const [searchTerm, setSearchTerm] = useState("");
@@ -39,25 +63,25 @@ export default function BurnoutClient() {
                     value={searchTerm}
                     onChange={(e) => setSearchTerm(e.target.value)}
                     className="w-full mb-6 p-3 rounded-md
-                        bg-gray-100 dark:bg-[#2a2a2a]
-                        text-gray-900 dark:text-white
-                        placeholder-gray-500 dark:placeholder-gray-400
-                        border border-gray-300 dark:border-gray-600
-                        focus:outline-none focus:ring-2 focus:ring-red-500 dark:focus:ring-red-400
-                        transition-colors duration-300"
+            bg-gray-100 dark:bg-[#2a2a2a]
+            text-gray-900 dark:text-white
+            placeholder-gray-500 dark:placeholder-gray-400
+            border border-gray-300 dark:border-gray-600
+            focus:outline-none focus:ring-2 focus:ring-red-500 dark:focus:ring-red-400
+            transition-colors duration-300"
                 />
 
-                <div className="flex justify-center gap-4 mb-8 flex-wrap">
+                <div className="flex justify-center gap-3 mb-8 flex-wrap">
                     {categories.map((category) => (
                         <button
                             key={category}
-                            className={`px-4 py-2 rounded-full border text-sm transition-colors duration-300 ${selectedCategory === category
+                            className={`font-serif px-4 py-2 rounded-full border text-sm transition-colors duration-300 ${selectedCategory === category
                                     ? "bg-red-600 text-white border-red-600"
                                     : "bg-transparent border-gray-400 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-[#2a2a2a]"
                                 }`}
                             onClick={() => setSelectedCategory(category)}
                         >
-                            {category}
+                            {categoryEmojis[category]} {category}
                         </button>
                     ))}
                 </div>
@@ -65,8 +89,13 @@ export default function BurnoutClient() {
                 <div className="space-y-8">
                     {filteredEntries.length > 0 ? (
                         filteredEntries.map((entry) => (
-                            <div key={entry.id} className="border-l-4 border-red-600 dark:border-red-500 pl-4">
-                                <p className="text-gray-800 dark:text-gray-200 transition-colors duration-300">{entry.content}</p>
+                            <div
+                                key={entry.id}
+                                className="border-l-4 border-red-600 dark:border-red-500 pl-4"
+                            >
+                                <p className="font-serif text-gray-800 dark:text-gray-200 transition-colors duration-300">
+                                    {entry.content}
+                                </p>
                                 <p className="text-sm text-right text-gray-500 dark:text-gray-400 mt-2 italic">
                                     — {entry.category}
                                 </p>
