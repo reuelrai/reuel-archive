@@ -13,7 +13,7 @@ const categories = [
     "Survivor",
     "Nihilist",
     "Philosopher",
-    
+
 ] as const;
 
 type Category = (typeof categories)[number];
@@ -76,8 +76,8 @@ export default function BurnoutClient() {
                         <button
                             key={category}
                             className={`font-serif px-4 py-2 rounded-full border text-sm transition-colors duration-300 ${selectedCategory === category
-                                    ? "bg-red-600 text-white border-red-600"
-                                    : "bg-transparent border-gray-400 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-[#2a2a2a]"
+                                ? "bg-red-600 text-white border-red-600"
+                                : "bg-transparent border-gray-400 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-[#2a2a2a]"
                                 }`}
                             onClick={() => setSelectedCategory(category)}
                         >
