@@ -15,7 +15,7 @@ const initialQuotes: Quote[] = [
         author: "Fyodor Dostoevsky, 'White Nights'",
     },
     {
-        text: "Poeple are like rivers, always changing, forever flowing. They will disappear with everything you put inside them.",
+        text: "Poeple are like rivers, always changing, forever flowing. They will disappear with everything you put inscategorye them.",
         category: "Life",
         author: "Nikita Gill",
     },
@@ -31,9 +31,159 @@ const initialQuotes: Quote[] = [
         author: "Marcus Aurelius",
     },
     {
-        text: "No matter what terms we are on. I said I'll be there for you, and I will be.",
+        text: "No matter what terms we are on. If I say I'll be there for you, and I will be.",
         category: "Relationships",
         author: "Unknonwn",
+    },
+    {
+        category: "Unknown",
+        text: "Love is the contradiction we keep choosing.",
+        author: "Philosopher",
+    },
+    {
+        category: "Unknown",
+        text: "Loyalty to the wrong person is self-betrayal.",
+        author: "Realist",
+    },
+    {
+        category: "Unknown",
+        text: "You call it love — I call it temporary convenience.",
+        author: "Cynic",
+    },
+    {
+        category: "Unknown",
+        text: "Even in silence, I hope you feel that someone still believes in you.",
+        author: "Hopeless Romantic",
+    },
+    {
+        category: "Unknown",
+        text: "The pain means you cared. The healing means you still can.",
+        author: "Optimist",
+    },
+    {
+        category: "Unknown",
+        text: "I dreamed of a love that would write poems back.",
+        author: "categoryealist",
+    },
+    {
+        category: "Unknown",
+        text: "Silence says more than words when the heart is listening.",
+        author: "Philosopher",
+    },
+    {
+        category: "Unknown",
+        text: "You can’t build a future on apologies for the past.",
+        author: "Realist",
+    },
+    {
+        category: "Unknown",
+        text: "I've seen too many ‘forevers’ turn into silence.",
+        author: "Cynic",
+    },
+    {
+        category: "Unknown",
+        text: "I hope the stars I wished on for you still light your way.",
+        author: "Hopeless Romantic",
+    },
+    {
+        category: "Unknown",
+        text: "Broken pieces make the strongest mosaic.",
+        author: "Healer", // Optional alt name for "Survivor" if you'd like
+    },
+    {
+        category: "Unknown",
+        text: "Some endings make space for miracles.",
+        author: "Optimist",
+    },
+    {
+        category: "Unknown",
+        text: "I wasn’t too much — I was just too real for a world full of pretend.",
+        author: "categoryealist",
+    },
+    {
+        category: "Unknown",
+        text: "Maybe love is just a beautiful lie we keep retelling ourselves.",
+        author: "Nihilist",
+    },
+    {
+        category: "Unknown",
+        text: "You left, but I still set the table for two.",
+        author: "Hopeless Romantic",
+    },
+    {
+        category: "Unknown",
+        text: "Trust is given, then shattered — and you learn to build walls instead.",
+        author: "Cynic",
+    },
+    {
+        category: "Unknown",
+        text: "I used to beg to be chosen. Now, I choose myself.",
+        author: "Survivor",
+    },
+    {
+        category: "Unknown",
+        text: "Is it love, or is it the need to feel seen?",
+        author: "Philosopher",
+    },
+    {
+        category: "Unknown",
+        text: "You broke my heart, but I still hope you’re sleeping well and eating properly.",
+        author: "Hopeless Romantic",
+    },
+    {
+        category: "Unknown",
+        text: "You don’t need closure from someone who shattered you.",
+        author: "Realist",
+    },
+    {
+        category: "Unknown",
+        text: "Every ending is just the start of a new story waiting to be written.",
+        author: "Optimist",
+    },
+    {
+        category: "Unknown",
+        text: "Nothing lasts — not even the ache.",
+        author: "Nihilist",
+    },
+    {
+        category: "Unknown",
+        text: "I wasn’t asking for perfection — just something beautiful to believe in.",
+        author: "categoryealist",
+    },
+    {
+        category: "Unknown",
+        text: "They say everything happens for a reason. I think some things just happen.",
+        author: "Nihilist",
+    },
+    {
+        category: "Unknown",
+        text: "I’d wait a lifetime for a moment you’ve already forgotten.",
+        author: "Hopeless Romantic",
+    },
+    {
+        category: "Unknown",
+        text: "Survival isn’t pretty. But it’s powerful.",
+        author: "Survivor",
+    },
+    {
+        category: "Unknown",
+        text: "You weren’t just a person, you were a season, a feeling, a symphony.",
+        author: "Hopeless Romantic",
+    },
+    {
+        category: "Unknown",
+        text: "You don’t heal by staying where the wound happened.",
+        author: "Survivor",
+    },
+    {
+        category: "Unknown",
+        text: "Maybe I fell in love with the categoryea of you — and that was my first mistake.",
+        author: "categoryealist",
+    },
+    {
+        category: "Unknown",
+        text: "Pain teaches what happiness cannot.",
+        author: "Philosopher",
     },
     
     
@@ -46,6 +196,7 @@ const categories = [
     'Relationships',
     'Stoic',
     'Book Quotes',
+    "Unknown"
 ];
 
 export default function ClientQuotes() {
