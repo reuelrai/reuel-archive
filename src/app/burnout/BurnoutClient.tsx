@@ -34,7 +34,7 @@ export default function BurnoutClient() {
 
                 <input
                     type="text"
-                    placeholder="Search raw feelings..."
+                    placeholder="Search..."
                     value={searchTerm}
                     onChange={(e) => setSearchTerm(e.target.value)}
                     className="w-full mb-6 p-3 border border-gray-300 dark:border-gray-700 rounded-md bg-transparent focus:outline-none focus:ring-2 focus:ring-red-500 transition"
