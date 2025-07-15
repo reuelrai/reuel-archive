@@ -1,19 +1,12 @@
 export interface BurnoutEntry {
     id: string;
     content: string;
-    category:
-    | "Hopeless Romantic"
-    | "Realist"
-    | "Idealist"
-    | "Cynic"
-    | "Optimist"
-    | "Survivor"
-    | "Nihilist"
-    | "Philosopher"
-    | "Healer";
-    date?: string;
 }
 
 export const burnoutEntries: BurnoutEntry[] = [
+    {
+        id: "1",
+        content: "Just because you would do it for them doesn’t mean they would do it for you.",
+    },
     
 ];
