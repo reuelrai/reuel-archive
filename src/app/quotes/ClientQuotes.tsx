@@ -54,7 +54,7 @@ export default function ClientQuotes() {
 
     return (
         <main className="max-w-4xl mx-auto px-4 py-12">
-            <h1 className="text-3xl font-bold text-center mb-8">Quotes that I find interesting</h1>
+            <h1 className="text-3xl font-bold text-center mb-8">Quotes that I find</h1>
 
             {/* Search Bar */}
             <div className="mb-6 text-center">
