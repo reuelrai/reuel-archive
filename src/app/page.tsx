@@ -26,16 +26,18 @@ export const metadata = {
     },
 };
 
-
 export default function Home() {
     return (
         <div
             className="flex flex-col items-center justify-center text-center"
             style={{ height: 'calc(100vh - 200px)' }}
         >
-            <h1 className="text-4xl font-bold p-4 shadow-md bg-white dark:bg-[#1d1d1d] text-black dark:text-white hover:shadow-md transition-all md-2 mt-10">Welcome to Reuel Blogs</h1>
+            <h1 className="text-4xl font-bold p-4 shadow-md bg-white dark:bg-[#1d1d1d] text-black dark:text-white hover:shadow-md transition-all mt-18">Welcome to Reuel Blogs</h1>
             <p className="text-lg max-w-md italic ">
                 Select a section from the navigation above to start reading.
+            </p>
+            <p className="text-sm max-w-md text-gray-700 dark:text-gray-300 italic bg-gray-100 dark:bg-[#1d1d1d] p-3 rounded-md shadow-inner">
+                Updated on 2025-07-17
             </p>
         </div>
     )

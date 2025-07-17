@@ -20,12 +20,9 @@ export const burnoutEntries: BurnoutEntry[] = [
     //     id: "4",
     //     content: "Don't leave your coffee alone for too long and then be suprised that it's cold - I'm not talking about coffee",
     // },
+
     {
         id: "1",
-        content: "And as my final act of love, I'll uproot the pressing of my lips from your memory. Your skin will not know the weight of mine. I'll peel my shadow off the wall. Pack up the promises you made so you don't feel the weight of your unfulfilled words. So you won't feel the pain regret is made for. So you don't have to dust the whole room of our hearts.",
-    },
-    {
-        id: "2",
         content: `When you wait for someone for a few minutes, it’s your need.
         For a few hours, it’s your trust.
         For a few weeks, it’s your friendship.
@@ -36,5 +33,9 @@ export const burnoutEntries: BurnoutEntry[] = [
         Everyone you meet is part of your journey, but not all of them are meant to stay in your life. Some people are just passing through to bring you gifts — either blessings or lessons.
         And in this journey, you must learn to appreciate the transient nature of relationships, understanding that each encounter has its purpose:
         to shape your character, teach you resilience, and prepare you for the deeper connections that lie ahead`
+    },
+    {
+        id: "2",
+        content: "And as my final act of love, I'll uproot the pressing of my lips from your memory. Your skin will not know the weight of mine. I'll peel my shadow off the wall. Pack up the promises you made so you don't feel the weight of your unfulfilled words. So you won't feel the pain regret is made for. So you don't have to dust the whole room of our hearts.",
     },
 ];
