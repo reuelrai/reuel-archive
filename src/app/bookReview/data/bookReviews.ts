@@ -12,7 +12,7 @@ export const bookReviews: BookReview[] = [
         id: 1,
         title: "The Art of Being Alone",
         author: "Renuka Gavrani",
-        rating: 10,
+        rating: 9,
         genre: "Memoir / Self-Help",
         review: `This book is for the quiet souls — the ones who feel everything deeply but rarely say it out loud. Renuka Gavrani writes about solitude not as something to escape, but as something to sit with, understand, and even cherish.
 
@@ -38,7 +38,7 @@ export const bookReviews: BookReview[] = [
         id: 3,
         title: "White Nights",
         author: "Fyodor Dostoevsky",
-        rating: 9,
+        rating: 8,
         genre: "Romantic Fiction / Classic",
         review: `White Nights is a beautiful, bittersweet tale of loneliness and fleeting connection. The narrator, a dreamy and isolated wanderer, meets a mysterious woman one summer night, and their brief encounter changes both their lives forever.`,
     },

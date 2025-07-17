@@ -39,11 +39,11 @@ export default function qna() {
         },
         {
             question: "What are my hobbies?",
-            answer: "Watching anime, reading manga/manhwa/books, listening to music, keeping track of tech world and playing video games.",
+            answer: "Reading manga/manhwa/books, watching anime listening to music, keeping track of tech world.",
         },
         {
             question: "What's my favourite book?",
-            answer: "Metamorphosis by Franz Kafka.",
+            answer: `'The art of being alone' by Renuka Gavrani`,
         },
     ];
 
