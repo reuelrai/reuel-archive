@@ -32,7 +32,7 @@ export const burnoutEntries: BurnoutEntry[] = [
 
         Everyone you meet is part of your journey, but not all of them are meant to stay in your life. Some people are just passing through to bring you gifts — either blessings or lessons.
         And in this journey, you must learn to appreciate the transient nature of relationships, understanding that each encounter has its purpose:
-        to shape your character, teach you resilience, and prepare you for the deeper connections that lie ahead`
+        to shape your character, teach you resilience, and prepare you for the deeper connections that lie ahead.`
     },
     {
         id: "2",
