@@ -7,6 +7,7 @@ const navItems = [
     { href: "/", label: "Home" },
     { href: "/poem", label: "Poems" },
     { href: "/quotes", label: "Quotes" },
+    { href: "/bookReview", label: "Book Review" },
     { href: "/qna", label: "Q&A" },
     { href: "/burnout", label: "Burnout" },
 ]
