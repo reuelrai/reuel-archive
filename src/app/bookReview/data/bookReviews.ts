@@ -14,11 +14,7 @@ export const bookReviews: BookReview[] = [
         author: "Renuka Gavrani",
         rating: 9,
         genre: "Memoir / Self-Help",
-        review: `This book is for the quiet souls — the ones who feel everything deeply but rarely say it out loud. Renuka Gavrani writes about solitude not as something to escape, but as something to sit with, understand, and even cherish.
-
-    It's a soft companion for nights when the world feels distant, and your own thoughts are too loud. Through short reflections and raw fragments, it reminds you that being alone isn't the same as being lonely — and sometimes, it's in that stillness where we find ourselves again.
-
-    If you've ever craved peace more than people, or silence more than noise — this one will speak to you.`,
+        review: `This book will be your guide when you are feeling lost and abandoned. "The art of being alone" speaks right to your mind. Highly recommended.`,
     },
 
     {
@@ -27,11 +23,11 @@ export const bookReviews: BookReview[] = [
         author: "Franz Kafka",
         rating: 10,
         genre: "Novella / Fiction",
-        review: `The Metamorphosis isn’t about a man turning into a bug — it’s about what happens when someone we love is no longer who they used to be, and how quickly our compassion fades. Gregor Samsa gave everything to his family. But the moment he couldn’t carry that weight anymore, they didn’t just lose patience — they stopped seeing him at all.
+        review: `The Metamorphosis isn’t just about a man turning into a bug — it’s about what happens when someone we love is no longer who they used to be, and how quickly our compassion fades.
 
     Interesting part is, the moment Gregor transforms into a bug, all he thinks about is not being late for work.
 
-    In the end, The Metamorphosis is less about a monstrous insect and more about the monstrous truth of conditional love in a transactional world.`,
+    In the end, it's less about a monstrous insect and more about the monstrous truth of conditional love in a transactional world.`,
     },
 
     {
@@ -40,7 +36,7 @@ export const bookReviews: BookReview[] = [
         author: "Fyodor Dostoevsky",
         rating: 8,
         genre: "Romantic Fiction / Classic",
-        review: `White Nights is a beautiful, bittersweet tale of loneliness and fleeting connection. The narrator, a dreamy and isolated wanderer, meets a mysterious woman one summer night, and their brief encounter changes both their lives forever.`,
+        review: `All I can say about this book is that with the original book of 110 pages, 'Nastenka' was mentioned 138 times and how many times the name of the narrator was mentioned? Zero.`,
     },
 
     // Add more reviews

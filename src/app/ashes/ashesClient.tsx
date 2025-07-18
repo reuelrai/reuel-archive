@@ -1,0 +1,59 @@
+"use client";
+
+import { useState, useMemo } from "react";
+import { entries } from "./ashesEntries";
+
+export default function InkNashesClient() {
+    const [searchTerm, setSearchTerm] = useState("");
+
+    const filteredEntries = useMemo(() => {
+        return entries.filter((entry) =>
+            entry.content.toLowerCase().includes(searchTerm.toLowerCase())
+        );
+    }, [searchTerm]);
+
+    return (
+        <main className="min-h-screen bg-white dark:bg-[#1d1d1d] text-gray-900 dark:text-white px-6 py-12 transition-colors duration-500 flex flex-col">
+            <div className="max-w-3xl mx-auto w-full">
+                <h1 className="text-blue-700 text-4xl font-bold mb-2 tracking-tight leading-tight">
+                    ashes.
+                </h1>
+
+                <p className="text-md text-gray-600 dark:text-gray-400 mb-8 italic">
+                    A collection of quiet moments —<br/>
+                    where absence meets indifference,<br/>
+                    where the unsaid remains untouched.<br/>
+                    Here lie stories etched in acceptance,<br/>
+                    and the space left when everything fades.
+
+
+                </p>
+
+                <input
+                    type="text"
+                    placeholder="Search entries..."
+                    value={searchTerm}
+                    onChange={(e) => setSearchTerm(e.target.value)}
+                    className="w-full mb-6 p-3 border border-gray-300 dark:border-gray-700 rounded-md bg-transparent focus:outline-none focus:ring-2 focus:ring-red-500 transition"
+                />
+
+                <div className="space-y-6">
+                    {filteredEntries.length > 0 ? (
+                        filteredEntries.map((entry) => (
+                            <article
+                                key={entry.id}
+                                className="p-4 border-l-4 border-blue-700 bg-gray-100 dark:bg-[#2a2a2a] rounded-md transition hover:scale-[1.01]"
+                            >
+                                <p className="whitespace-pre-line">{entry.content}</p>
+                            </article>
+                        ))
+                    ) : (
+                        <p className="text-center text-gray-500 dark:text-gray-400">
+                            No matching entries found.
+                        </p>
+                    )}
+                </div>
+            </div>
+        </main>
+    );
+}

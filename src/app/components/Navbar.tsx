@@ -9,6 +9,7 @@ const navItems = [
     { href: "/quotes", label: "Quotes" },
     { href: "/bookReview", label: "Book Review" },
     { href: "/burnout", label: "Burnout" },
+    { href: "/ashes", label: "Ashes" },
     { href: "/qna", label: "Q&A" },
 ]
 
