@@ -21,15 +21,12 @@ export default function BurnoutClient() {
 
 
                 <p className="text-md text-gray-600 dark:text-gray-400 mb-8 italic">
-                    This is a graveyard of words —
-                    <br />
-                    where love and loss, hope and despair,
-                    <br />
-                    silence and scream all find their resting place.
-                    <br />
-                    Here lie the fragments of every broken heart,
-                    <br />
-                    and the whispers of those learning to love again.
+                    This is a battlefield of words —<br />
+                    where anger and silence clash,<br />
+                    where hope is worn thin,<br />
+                    and every breath feels heavier than the last.<br />
+                    Here lie the cracks of every tired soul,<br />
+                    and the shouts no one dared to hear.
                 </p>
 
                 <input
