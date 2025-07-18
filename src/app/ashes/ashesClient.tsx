@@ -15,7 +15,7 @@ export default function InkNashesClient() {
     return (
         <main className="min-h-screen bg-white dark:bg-[#1d1d1d] text-gray-900 dark:text-white px-6 py-12 transition-colors duration-500 flex flex-col">
             <div className="max-w-3xl mx-auto w-full">
-                <h1 className="text-blue-700 text-4xl font-bold mb-2 tracking-tight leading-tight">
+                <h1 className="text-gray-400 text-4xl font-bold mb-2 tracking-tight leading-tight">
                     ashes.
                 </h1>
 
@@ -40,7 +40,7 @@ export default function InkNashesClient() {
                         filteredEntries.map((entry) => (
                             <article
                                 key={entry.id}
-                                className="p-4 border-l-4 border-blue-700 bg-gray-100 dark:bg-[#2a2a2a] rounded-md transition hover:scale-[1.01]"
+                                className="p-4 border-l-4 border-gray-700 bg-gray-100 dark:bg-[#2a2a2a] rounded-md transition hover:scale-[1.01]"
                             >
                                 <p className="whitespace-pre-line">{entry.content}</p>
                             </article>
