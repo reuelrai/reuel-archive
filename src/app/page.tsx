@@ -37,7 +37,7 @@ export default function Home() {
                 Select a section from the navigation above to start reading.
             </p>
             <p className="text-sm max-w-md text-gray-700 dark:text-gray-300 italic bg-gray-100 dark:bg-[#1d1d1d] p-3 rounded-md shadow-inner">
-                Updated on 2025-07-19
+                Updated on 2025-07-20
             </p>
         </div>
     )

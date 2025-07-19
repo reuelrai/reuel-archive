@@ -22,6 +22,10 @@ export const entries: Entry[] = [
     },
     {
         id: "2",
+        content: "I still believe in loving and being faithful to one person, and I refuse to let this generation take that away from me.",
+    },
+    {
+        id: "3",
         content: "No matter what terms we are on. If I said I'll be there for you, I will be.",
     },
 ];

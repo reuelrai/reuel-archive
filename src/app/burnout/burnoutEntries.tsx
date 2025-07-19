@@ -27,10 +27,14 @@ export const burnoutEntries: BurnoutEntry[] = [
     },
     {
         id: "6",
-        content: "not everything is worth fixing\n- move on.",
+        content: "not everything is worth fixing - move on.",
     },
     {
         id: "7",
         content: "Some people talk to you when they have free time,\n some free their time to talk to you.\nknow the difference.",
+    },
+    {
+        id: "9",
+        content: "If they dont see the value of having you, dont try to convince them.",
     },
 ];
