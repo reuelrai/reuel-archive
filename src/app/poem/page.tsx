@@ -5,11 +5,11 @@ export const metadata = {
     openGraph: {
         title: 'Poems | Reuel Writes',
         description: 'Original poems by Reuel Rai — explore deep emotions and artistic words.',
-        url: 'https://yourdomain.com/poem',
+        url: 'https://reuel-library.vercel.app/poem',
         siteName: 'Reuel Writes',
         images: [
             {
-                url: 'https://yourdomain.com/og-poem.png',
+                url: 'https://reuel-library.vercel.app/poem',
                 width: 1200,
                 height: 630,
                 alt: 'Reuel Poems',
