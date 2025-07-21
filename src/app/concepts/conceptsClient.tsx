@@ -1,15 +1,15 @@
 'use client';
 
 import { useState } from 'react';
-import { theories, Theory } from './conceptsEntries';
+import { concept, Theory } from './conceptsEntries';
 
-const categories = ['All', ...Array.from(new Set(theories.map((t) => t.category)))];
+const categories = ['All', ...Array.from(new Set(concept.map((t) => t.category)))];
 
-export default function TheoriesClient() {
+export default function conceptClient() {
     const [selectedCategory, setSelectedCategory] = useState('All');
     const [searchTerm, setSearchTerm] = useState('');
 
-    const filteredTheories = theories.filter((theory) => {
+    const filteredconcept = concept.filter((theory) => {
         const matchesCategory = selectedCategory === 'All' || theory.category === selectedCategory;
         const matchesSearch = theory.title.toLowerCase().includes(searchTerm.toLowerCase()) || theory.description.toLowerCase().includes(searchTerm.toLowerCase());
         return matchesCategory && matchesSearch;
@@ -23,7 +23,7 @@ export default function TheoriesClient() {
             <div className="mb-6 text-center">
                 <input
                     type="text"
-                    placeholder="Search theories..."
+                    placeholder="Search concepts..."
                     value={searchTerm}
                     onChange={(e) => setSearchTerm(e.target.value)}
                     className="w-full sm:w-1/2 px-4 py-2 border border-gray-300 dark:border-gray-700 rounded-lg shadow-md dark:bg-[#1d1d1d] dark:text-white"
@@ -49,7 +49,7 @@ export default function TheoriesClient() {
 
             {/* Theory Cards */}
             <div className="space-y-6">
-                {filteredTheories.map((theory, index) => (
+                {filteredconcept.map((theory, index) => (
                     <div
                         key={index}
                         className="bg-white dark:bg-[#1d1d1d] border border-gray-200 dark:border-gray-700 rounded-xl p-6 shadow transition hover:scale-[1.01]"
@@ -62,8 +62,8 @@ export default function TheoriesClient() {
                         )}
                     </div>
                 ))}
-                {filteredTheories.length === 0 && (
-                    <p className="text-center text-gray-500 dark:text-gray-400">No theories found.</p>
+                {filteredconcept.length === 0 && (
+                    <p className="text-center text-gray-500 dark:text-gray-400">No concept found.</p>
                 )}
             </div>
         </main>

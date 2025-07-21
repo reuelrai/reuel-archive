@@ -5,7 +5,7 @@ export interface Theory {
     source?: string;
 }
 
-export const theories: Theory[] = [
+export const concept: Theory[] = [
     {
         title: "Red String of Fate (運命の赤い糸)",
         category: "Cultural Mythology",

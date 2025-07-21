@@ -3,7 +3,7 @@
 import TheoriesClient from './conceptsClient';
 
 export const metadata = {
-    title: "Theories | Reuel's Writings",
+    title: "Concepts | Reuel's Writings",
     description: "Explore fascinating cultural, psychological, and philosophical theories — from the Japanese red string of fate to modern-day social concepts.",
     keywords: ['theories', 'red string of fate', 'pop psychology', 'Japanese legend', 'Reuel Rai'],
     openGraph: {
