@@ -123,4 +123,12 @@ export const theories: Theory[] = [
             "We constantly believe that others notice our mistakes, flaws, or awkward moments more than they actually do. In reality, everyone is too caught up in their own spotlight to focus on ours.",
         source: "Psychological Phenomenon",
     },
+    {
+        title: "Call of the Void (L’appel du vide)",
+        category: "Mind & Emotion",
+        description:
+            "A sudden, inexplicable urge to jump from high places or steer into danger — not out of a desire to die, but a strange mental impulse. Psychologists say it may be your brain's way of reaffirming your will to live.",
+        source: "Cognitive Phenomenon",
+    }
+
 ];
