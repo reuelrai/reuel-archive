@@ -10,7 +10,7 @@ export const theories: Theory[] = [
         title: "Red String of Fate (運命の赤い糸)",
         category: "Cultural & Mythical Beliefs",
         description:
-            "An East Asian belief that an invisible red thread connects those who are destined to meet, regardless of time, place, or circumstances. The thread may stretch or tangle, but it will never break.",
+            "A Japanese belief that an invisible red thread connects two people who are destined to meet. The thread may stretch or tangle, but it will never break — symbolizing that no matter the time, place, or circumstance, fate will bring them together. It often represents soulmates, destined lovers, or deeply connected individuals.",
         source: "Japanese Legend",
     },
     {
