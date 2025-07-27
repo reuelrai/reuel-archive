@@ -6,6 +6,9 @@ import Link from 'next/link'
 const navItems = [
     { href: "/", label: "Home" },
     { href: "/theories", label: "Theories" },
+    { href: "/quotes", label: "Quotes" },
+    { href: "/burnout", label: "Burnout" },
+    { href: "/ashes", label: "Ashes" },
 ]
 
 export default function Navbar() {
