@@ -1,5 +1,5 @@
 // src/app/burnout/page.tsx (SERVER COMPONENT)
-import BurnoutClient from "./BurnoutClient";
+import BurnoutClient from "./burnoutClient";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
         "Reuel Rai",
         "personal writing",
         "emotional diary",
-        "unspoken truths",
+        "unspoken truthss",
     ],
     openGraph: {
         title: "Burnout | Reuel",
