@@ -37,7 +37,7 @@ export default function Home() {
                 Wanna read some cool theories? Select a tab from the nagivation bar and start reading!
             </p>
             <p className="text-sm max-w-md text-gray-700 dark:text-gray-300 italic bg-gray-100 dark:bg-[#1d1d1d] p-3 rounded-md shadow-inner">
-                Updated on 2025-08-01
+                Updated on 2025-08-03
             </p>
         </div>
     )
