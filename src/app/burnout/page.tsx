@@ -1,5 +1,5 @@
 // src/app/burnout/page.tsx (SERVER COMPONENT)
-import BurnoutClient from "./burnoutClient";
+import BurnoutClient from "./BurnoutClient";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
