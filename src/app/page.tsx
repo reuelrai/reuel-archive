@@ -34,10 +34,10 @@ export default function Home() {
         >
             <h1 className="text-4xl font-bold p-4 shadow-md bg-white dark:bg-[#1d1d1d] text-black dark:text-white hover:shadow-md transition-all mt-18">Welcome to Reuel Library</h1>
             <p className="text-lg max-w-md italic ">
-                Wanna read some cool theories? Select a tab from the nagivation bar and start reading!
+                Wanna read some cool theories? ides? Select a tab from the nagivation bar and start reading!
             </p>
             <p className="text-sm max-w-md text-gray-700 dark:text-gray-300 italic bg-gray-100 dark:bg-[#1d1d1d] p-3 rounded-md shadow-inner">
-                Updated on 2025-08-08
+                Updated on 2025-08-09
             </p>
         </div>
     )
